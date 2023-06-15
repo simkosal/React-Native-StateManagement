@@ -7,6 +7,7 @@ import CategoriesMealDetailScreen from "./screens/CategoriesMealDetailScreen";
 import FavoriteScreen from "./screens/FavoriteScreen";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import IconButton from "./components/IconButton";
+import FavoritesContextProvider from "./store/context/Favorites-context";
 
 const Stack = createNativeStackNavigator();
 
@@ -52,34 +53,34 @@ function DrawerNavigator() {
 function App() {
   return (
     <>
-      {/* <StatusBar style="dark" /> */}
+      <FavoritesContextProvider>
+        <NavigationContainer>
+          <Stack.Navigator>
+            <Stack.Screen
+              name="Drawer"
+              component={DrawerNavigator}
+              options={{
+                headerShown: false,
+              }}
+            />
 
-      <NavigationContainer>
-        <Stack.Navigator>
-          <Stack.Screen
-            name="Drawer"
-            component={DrawerNavigator}
-            options={{
-              headerShown: false,
-            }}
-          />
-
-          <Stack.Screen
-            name="CategoriesMealScreen"
-            component={CategoriesMealScreen}
-            options={{
-              title: "All Categories",
-            }}
-          />
-          <Stack.Screen
-            name="CategoriesMealDetailScreen"
-            component={CategoriesMealDetailScreen}
-            options={{
-              title: "Detail",
-            }}
-          />
-        </Stack.Navigator>
-      </NavigationContainer>
+            <Stack.Screen
+              name="CategoriesMealScreen"
+              component={CategoriesMealScreen}
+              options={{
+                title: "All Categories",
+              }}
+            />
+            <Stack.Screen
+              name="CategoriesMealDetailScreen"
+              component={CategoriesMealDetailScreen}
+              options={{
+                title: "Detail",
+              }}
+            />
+          </Stack.Navigator>
+        </NavigationContainer>
+      </FavoritesContextProvider>
     </>
   );
 }
