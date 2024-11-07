@@ -13,13 +13,13 @@ function App() {
       <StatusBar style="dark" />
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="CategoriesScreen" component={CategoriesScreen} />
+          <Stack.Screen name="Categories" component={CategoriesScreen} />
           <Stack.Screen
             name="CategoriesMealScreen"
             component={CategoriesMealScreen}
           />
           <Stack.Screen
-            name="CategoriesMealDetailScreen"
+            name="CategoriesMealDetail"
             component={CategoriesMealDetailScreen}
           />
         </Stack.Navigator>

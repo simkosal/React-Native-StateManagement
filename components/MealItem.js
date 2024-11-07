@@ -13,7 +13,7 @@ const MealItem = ({
 }) => {
   const navigation = useNavigation();
   function selectMealItemHandler() {
-    navigation.navigate("CategoriesMealDetailScreen", {
+    navigation.navigate("CategoriesMealDetail", {
       mealID: id,
     });
   }
