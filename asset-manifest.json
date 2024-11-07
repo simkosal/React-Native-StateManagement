@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.a5909499.js",
-    "static/js/244.522e2a4e.js": "/static/js/244.522e2a4e.js",
-    "static/media/FontAwesome.ttf": "/static/media/FontAwesome.1e59d2330b4c6deb84b3.ttf",
-    "favicon.ico": "/favicon.ico",
-    "index.html": "/index.html",
-    "favicon-32.png": "/favicon-32.png",
-    "favicon-16.png": "/favicon-16.png",
-    "manifest.json": "/manifest.json",
-    "serve.json": "/serve.json",
-    "main.a5909499.js.map": "/static/js/main.a5909499.js.map",
-    "244.522e2a4e.js.map": "/static/js/244.522e2a4e.js.map"
+    "main.js": "/React-Native-StateManagement/static/js/main.a91b3217.js",
+    "static/js/244.522e2a4e.js": "/React-Native-StateManagement/static/js/244.522e2a4e.js",
+    "static/media/FontAwesome.ttf": "/React-Native-StateManagement/static/media/FontAwesome.1e59d2330b4c6deb84b3.ttf",
+    "favicon.ico": "/React-Native-StateManagement/favicon.ico",
+    "index.html": "/React-Native-StateManagement/index.html",
+    "favicon-32.png": "/React-Native-StateManagement/favicon-32.png",
+    "favicon-16.png": "/React-Native-StateManagement/favicon-16.png",
+    "manifest.json": "/React-Native-StateManagement/manifest.json",
+    "serve.json": "/React-Native-StateManagement/serve.json",
+    "main.a91b3217.js.map": "/React-Native-StateManagement/static/js/main.a91b3217.js.map",
+    "244.522e2a4e.js.map": "/React-Native-StateManagement/static/js/244.522e2a4e.js.map"
   },
   "entrypoints": [
     "static/js/244.522e2a4e.js",
-    "static/js/main.a5909499.js"
+    "static/js/main.a91b3217.js"
   ]
 }
